@@ -346,6 +346,7 @@ def render():
     cv.text(W - M - dw, 16, date_s, 3, WHITE)
     cv.text(W - M - cv.text_w("35 STORIES · 7 REGIONS", 2), 52, "35 STORIES · 7 REGIONS", 2, (200, 210, 224))
     cv.rect(0, 104, W, 4, RED)
+    cv.rect(0, 108, W, 2, GOLD)  # thin gold accent under the red rule (magazine touch)
 
     # --- hero feature (COP31) ---
     hy = 120
